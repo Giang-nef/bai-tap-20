@@ -1,0 +1,82 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  width: 1808px;
+  height: 1903px;
+  background-color: #010001;
+  position: relative;
+
+}
+
+.header-top > img {
+  margin: 30px 0px 0px 50px;
+  position: absolute;
+}
+
+.header-top > ul {
+  display: inline-block;
+  position: absolute;
+  top: 30px;
+  left: 950px;
+}
+
+.header-top > ul > li {
+  display: inline-block;
+  padding-right: 20px;
+  position: relative;
+}
+
+.header-top > ul > li > div > p {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.header-top > ul > li > div > ul {
+  list-style-type: none;
+  background-color: #FFFFFF;
+  color: #1f1f25;
+  font-size: 16px;
+  font-weight: 500;
+  width: 220px;
+  position:absolute;
+  left: -30px;
+  display: none;
+}
+
+.header-top > ul > li > div > ul > li {
+ height: 33px;
+ width: 205px;
+ padding: 5px 20px 5px 20px ;
+}
+
+.header-top > ul > li > div > ul > li:first-child {
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+}
+
+.header-top > ul > li > div > ul > li:last-child {
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  }
+
+.header-top > ul > li > div > ul:hover{
+  display: block;
+  color: #010001;
+  font-size: 16px;
+}
+
+.header-top > button {
+  background-color: #343334;
+  color: #caf2ff;
+  font-size: 16px;    background-size: 152% 100%;
+  letter-spacing: 2px;
+  font-weight: 500;
+  padding: 16px 40px 16px 40px;
+  border-radius: 500px;
+  position: absolute;
+  right: 50px;
+  top: 50px;
+
+}
