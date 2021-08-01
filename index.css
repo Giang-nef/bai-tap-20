@@ -6,20 +6,27 @@ body {
 header {
   background-color: #010001;
   color: #FFF;
-  width: 1903px;
-  height: 1000px;
+  height: 100%;
+  padding-bottom: 120px;
 }
 
 .top > img {
   display: inline-block;
-  margin: 30px 885px 0px 50px;
+  padding: 30px 0px 0px 50px;
+  cursor: pointer;
 }
+
+/* NARBAR */
 
 .top > div {
   display: inline-block;
+  position: absolute;
+  right: 50px;
+  top: 30px;
 }
 
 .top > div > ul {
+  cursor: pointer;
   display: inline-block;
 }
 
@@ -32,9 +39,11 @@ header {
 .top > div > ul > li > div > p {
   color: #FFF;
   font-size: 16px;
+  font-weight: 500px;
 }
 
 .top > div > ul > li > div > ul {
+  display: none;
   list-style-type: none;
   background-color: #FFFFFF;
   color: #1f1f25;
@@ -42,30 +51,36 @@ header {
   font-weight: 500;
   width: 220px;
   position:absolute;
-  left: -30px;
-  display: none;
+  padding: 12px 0px 12px 0px;
+  border-radius: 4px;
 }
 
 .top > div > ul > li > div > ul > li {
- height: 33px;
- width: 205px;
- padding: 5px 20px 5px 20px ;
+  color: #1f1f25;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 5px 20px 5px 20px;
+  margin: 0px 10px 0px 10px;
 }
 
-.top > div > ul > li > div > ul > li:first-child {
-border-top-left-radius: 3px;
-border-top-right-radius: 3px;
+.top > div > ul > li > div {
+  height: 40px;
 }
 
-.top > div > ul > li > div > ul > li:last-child {
-  border-bottom-left-radius: 3px;
-  border-bottom-right-radius: 3px;
-  }
+.top > div > ul > li > div:hover > ul {
+  display: block; 
+}
 
-.top > div > ul > li > div > ul:hover{
+.top > div > ul > li > div > ul:hover {
   display: block;
   color: #010001;
   font-size: 16px;
+}
+
+.top > div > ul > li > div > ul > li:hover{
+  background-color: #ffedf2;
+  color: #fd4793;
+  border-radius: 3px;
 }
 
 .top > div > button {
@@ -78,6 +93,8 @@ border-top-right-radius: 3px;
   padding: 16px 40px 16px 40px;
   border-radius: 36px;
   margin-left: 60px;
+  border: 2px solid #5d5c5d;
+  cursor: pointer;
 }
 
 .center > h1 {
@@ -86,6 +103,8 @@ border-top-right-radius: 3px;
   font-weight: 900;
   line-height: 120px;
 }
+
+/* BOTTOM */
 
 .bottom {
   text-align: center;
@@ -106,12 +125,12 @@ border-top-right-radius: 3px;
   color: #757575;
 }
 
-main {
-}
+/* MAIN */
+/* MAIN-1 */
 
 .main-1 {
-  margin: 120px 0px 120px 0px;
   text-align: center;
+  margin: 120px 0px 120px 0px;
 }
 
 .main-1 > img {
@@ -143,7 +162,10 @@ main {
 
 .main-1 > div > a {
   text-decoration: none;
+  cursor: pointer;
 }
+
+/* MAIN-2 */
 
 .main-2 {
   background-color: #fafafb;
@@ -176,10 +198,6 @@ main {
   margin-top: 30px;
 }
 
-.bottom-2 > ul {
-  list-style-type: none;
-}
-
 .bottom-2 > div > div {
   background-color: #fff;
   width: 290px;
@@ -192,6 +210,7 @@ main {
 }
 
 .bottom-2 > div > div:hover {
+  cursor: pointer;
   box-shadow: 0 2px 70px 0 rgb(253 71 102 / 5%);
   position: relative;
   bottom: 5px;
@@ -202,12 +221,14 @@ main {
 }
 
 .bottom-2 > div > div > h3 {
-  color: #1f1f25;;
+  color: #1f1f25;
   line-height: 1.4074;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
 }
+
+/* MAIN-3 */
 
 .main-3 {
   text-align: center;
@@ -227,3 +248,132 @@ main {
   font-size: 18px;
   line-height: 30px;
 }
+
+.web-design {
+  display: inline-block;
+  background-image: 
+    url(./images/web-design.jpg);
+    height: 532px;
+    width: 390px;
+  background-size: cover;
+  color: #fff;
+  border-radius: 10px;
+  margin: 30px 15px 0px 15px;
+  position: relative;
+}
+
+.web-design:hover {
+  position: relative;
+  bottom: 5px;
+}
+
+.web-design > div {
+  text-align: left;
+  position:absolute;
+  left: 50px;
+  bottom: 25px;
+}
+
+.app-development {
+  display: inline-block;
+  background-image: 
+  url(./images/img-app-development.png);
+  background-size: cover;
+  width: 390px;
+  height: 532px;
+  color: #fff;
+  border-radius: 10px;
+  margin: 30px 15px 0px 15px;
+  position: relative;
+}
+
+.app-development:hover {
+  position: relative;
+  bottom: 5px;
+}
+
+.app-development > div {
+  text-align: left;
+  position:absolute;
+  left: 50px;
+  bottom: 25px;
+}
+
+.photoshop-design {
+  display: inline-block;
+  background-image: 
+  url(./images/photoshop-design.jpg);
+  height: 532px;
+  width: 390px;
+  background-size: cover;
+  color: #fff;
+  margin: 30px 15px 0px 15px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.photoshop-design:hover {
+  position: relative;
+  bottom: 5px;
+}
+
+.photoshop-design > div {
+  text-align: left;
+  position:absolute;
+  left: 50px;
+  bottom: 25px;
+}
+
+/* MAIN-4 */
+
+.main-4 {
+  background-color: #fafafb;
+  text-align: center;
+  padding: 120px 0px 120px 0px;
+}
+
+.top-4 > h2 {
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 62px;
+  margin: 25px 0px 20px 0px;
+}
+
+.top-4 > p {
+  color: #757575;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.bottom-4 > div {
+  display: inline-block;
+  background-color: #FFFFFF;
+  width: 188px;
+  height: 167px;
+  border-radius: 10px;
+  padding: 50px;
+  margin: 0px 15px 0px 15px;
+}
+
+.bottom-4 > div > svg {
+  stroke-width: 1;
+  font-size: 45px;
+}
+
+.bottom-4 > div > h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 62px;
+  margin-top: 20px;
+}
+
+.bottom-4 > div > p {
+  color: #947575;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.main-5 {
+  padding: 120px 0px 120px 0px;
+}
+
