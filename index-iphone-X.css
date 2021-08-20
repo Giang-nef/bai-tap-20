@@ -1,0 +1,71 @@
+@media only screen and (max-width: 376px) {
+  .body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .header {
+    background-color: #010001;
+    color: #FFF;
+    height: 100%;
+    padding-bottom: 0px;
+  }
+
+  .top > img {
+    width: 120px;
+    height: 46px;
+    display: inline-block;
+    padding: 40px 0px 0px 15px;
+    cursor: pointer;
+  }
+
+  /* NARBAR */
+
+  .top > div {
+    display: none;
+    position: absolute;
+    right: 15px;
+    top: 40px;
+  }
+
+  .buy-now {
+    display: inline-block;
+    background-color: #343334;
+    color: #caf2ff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding: 16px 40px 16px 40px;
+    border-radius: 36px;
+    margin-right: 10px;
+    border: 2px solid #5d5c5d;
+    cursor: pointer;
+  }
+
+  .center > h1 {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(120deg,#1c99fe 20.69%,#7644ff 50.19%,#9e3143 79.69%);
+    text-align: center;
+    font-size: 34px;
+    font-weight: 900;
+    line-height: 42px;
+    width: 345px;
+    margin: 0px auto 20px;
+  }
+
+  .bottom {
+    text-align: center;
+  }
+
+  .bottom > div {
+    display: block;
+    padding: 30px;
+  }
+
+  .main-1 {
+    text-align: center;
+    margin: 80px 15px 40px;
+  }
+
+}

@@ -83,7 +83,7 @@ header {
   border-radius: 3px;
 }
 
-.top > div > button {
+.buy-now {
   display: inline-block;
   background-color: #343334;
   color: #caf2ff;
@@ -278,8 +278,8 @@ header {
 }
 
 .bottom-3 {
-  position: relative;
-  left: 300px;
+  width: 67%;
+  margin: 0px auto;
 }
 
 .web-design {
@@ -665,7 +665,7 @@ header {
 }
 
 .images-7 > img {
-  transition: .3s;
+  transition: .3s scale,.3s filter;
   -webkit-filter: grayscale(1);
   filter: grayscale(1);
   padding: 50px;
@@ -844,4 +844,5 @@ footer {
   bottom: 2px;
   cursor: pointer;
 }
+
 
