@@ -143,6 +143,7 @@ header {
 }
 
 .main-1 > div {
+  max-width: 696px;
   text-align: left;
   display: inline-block;
   position: relative;
@@ -770,6 +771,16 @@ footer {
   padding: 5px 0px 5px 0px;
   color: #6a6c71;
   cursor: pointer;
+  
+}
+
+.b-footer-2 > ul > li:hover {
+  color: #fd4766;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  max-width: 54%;
+  border-bottom: solid 2px #7644ff;
+  transition: .3s border-bottom;
 }
 
 .b-footer-3 {
