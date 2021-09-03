@@ -129,6 +129,7 @@ header {
 }
 
 .service-head > div > p {
+  width: 260px;
   color: #757575;
 }
 
